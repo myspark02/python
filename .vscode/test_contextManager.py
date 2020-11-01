@@ -33,7 +33,7 @@ with open_mangaged_file('notes.txt') as f :
 #             print('exception has been handled')
 #         # print('exc:', exc_type, exc_value)
 #         print('exit')
-#         return True # manually handle exception and make no exception raise cause this mathod already handled it
+#         return True # manually handle exception and make no exception raise cause this method already handled it
 
 # with ManagedFile('notes.txt') as file :
 #     print('do some stuff')
