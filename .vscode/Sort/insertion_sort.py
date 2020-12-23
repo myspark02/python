@@ -5,12 +5,14 @@ def insertion_sort(elements:list) -> None:
 
     for i in range(1, length) :
         val = elements[i]
-        for j in range(i-1, -1, -1) :
+        j = i - 1
+        while j >= 0 and elements[j] > val :
             if (elements[j] > val) :
                 elements[j+1] = elements[j]
             else :
                 break
-        elements[j] = val
+            j -= 1
+        elements[j+1] = val
 
 
 if __name__ == '__main__' :
