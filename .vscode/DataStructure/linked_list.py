@@ -140,3 +140,11 @@ if __name__ == '__main__' :
    print(linked_list)  
    print('length:', linked_list.get_length())
 #    linked_list.remove_at(20)
+
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+arr.remove(5)
+print(arr)
+
+arr.insert(2, 30)
+
+print(arr)
