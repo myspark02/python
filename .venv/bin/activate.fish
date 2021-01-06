@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Volumes/Data/Documents/scpark/VSC/workspace/python/.venv"
+set -gx VIRTUAL_ENV "/Volumes/TOSHIBA EXT/MyBackup/2020/VSCWorkspace/python/.venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
